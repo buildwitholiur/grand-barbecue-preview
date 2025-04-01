@@ -165,7 +165,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  margin-top: 50px;
 }
 
 /* Default CSS Code */
@@ -173,8 +173,20 @@ main {
 /* Header Area */
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
   padding: 16px 0;
   background: #efad18;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header--home {
+  height: 50px;
 }
 
 .header .container {
@@ -202,6 +214,11 @@ main {
   display: flex;
   align-items: center;
   gap: 35px;
+}
+
+.nav__links li,
+.nav__social-links li {
+  display: flex;
 }
 
 .nav__links li a {
@@ -240,12 +257,12 @@ main {
 
 /* Hero Area */
 .hero-area {
-  padding: 14px 0;
+  padding: 32px 0;
 }
 
 .hero__logo {
   width: fit-content;
-  height: 73px;
+  height: 109px;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
@@ -261,6 +278,14 @@ main {
 
 .hero__image img {
   object-fit: contain;
+}
+
+.image-version {
+  display: none;
+}
+
+.image-version--desktop {
+  display: block;
 }
 
 .hero p {
@@ -295,11 +320,11 @@ main {
 
 .location__map-heading {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 25px;
 }
 
-.location__map-heading img {
+.location__map-icon {
   width: fit-content;
   height: 60px;
 }
@@ -378,9 +403,8 @@ main {
   max-width: 388px;
 }
 
-.cause-hero__partners {
-  width: 100%;
-  max-width: 333px;
+.mobile-logo {
+  display: none;
 }
 
 .cause-hero__content p {
@@ -421,9 +445,12 @@ main {
 }
 
 .cause-hero__partners {
+  width: 100%;
+  max-width: 333px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 48px;
+  column-gap: 48px;
+  row-gap: 82px;
 }
 
 .cause-hero__partner img {
@@ -437,6 +464,7 @@ main {
 .cause-hero__partner h3 {
   font-family: "Tilt Warp", sans-serif;
   color: #0b333c;
+  font-weight: 400;
   margin-top: 10px;
   text-align: center;
   text-transform: uppercase;
