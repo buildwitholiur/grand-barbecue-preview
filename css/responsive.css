@@ -182,11 +182,11 @@
   }
 
   .cause-guiter__image {
-    width: 464px;
+    width: 467px;
     height: auto;
     position: absolute;
     bottom: -45px;
-    left: 0;
+    left: -6px;
   }
 
   .cause-guiter-area {
@@ -324,7 +324,13 @@
     height: auto;
     position: absolute;
     bottom: -45px;
-    left: 0;
+    left: -8px;
+  }
+
+  .hero-area,
+  .location-area,
+  .cause-hero-area {
+    min-height: auto;
   }
 }
 
@@ -451,16 +457,26 @@
   }
 
   .cause-hero__image {
-    width: 100%;
+    width: calc(100% + 40px);
     height: 479px;
-    top: -50px;
+    top: -25px;
     right: auto;
-    left: 53%;
+    left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+  }
+
+  .desktop-women,
+  .desktop-guiter {
+    display: none;
+  }
+
+  .mobile-women,
+  .mobile-guiter {
+    display: block;
   }
 
   .mobile-logo {
@@ -477,7 +493,7 @@
   }
 
   .cause-hero__content {
-    margin-top: 430px;
+    margin-top: 490px;
     max-width: 100%;
   }
 
@@ -507,7 +523,7 @@
   }
 
   .cause-guiter {
-    height: 850px;
+    height: 910px;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -534,8 +550,13 @@
   }
 
   .cause-guiter__image {
-    width: 100%;
-    bottom: -40px;
-    left: 0;
+    width: calc(100% + 40px);
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
   }
 }

@@ -165,7 +165,7 @@ body {
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 66px;
 }
 
 /* Default CSS Code */
@@ -180,13 +180,9 @@ main {
   z-index: 9999;
   padding: 16px 0;
   background: #efad18;
-  height: 60px;
+  height: 66px;
   display: flex;
   align-items: center;
-}
-
-.header--home {
-  height: 50px;
 }
 
 .header .container {
@@ -258,6 +254,7 @@ main {
 /* Hero Area */
 .hero-area {
   padding: 32px 0;
+  min-height: calc(100vh - 66px);
 }
 
 .hero__logo {
@@ -301,6 +298,7 @@ main {
   padding-top: 40px;
   padding-bottom: 28px;
   background: url("../images/location-bg.jpg");
+  min-height: 100vh;
 }
 
 .location {
@@ -326,7 +324,7 @@ main {
 
 .location__map-icon {
   width: fit-content;
-  height: 60px;
+  height: 26px;
 }
 
 .location__map-info h2 {
@@ -371,6 +369,7 @@ main {
 /* Cause Hero Area */
 .cause-hero-area {
   padding-top: 24px;
+  min-height: calc(100vh - 66px);
 }
 
 .cause-hero {
@@ -385,8 +384,8 @@ main {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 667px;
-  height: 608px;
+  width: 648px;
+  height: 609px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -396,6 +395,11 @@ main {
 
 .cause-hero__image img {
   object-fit: contain;
+}
+
+.mobile-women,
+.mobile-guiter {
+  display: none;
 }
 
 .cause-hero__content {
@@ -441,7 +445,8 @@ main {
 }
 
 .give__btn:hover {
-  background: #145e6e;
+  background: #7ebfa0;
+  color: #222d35;
 }
 
 .cause-hero__partners {
@@ -489,11 +494,11 @@ main {
 }
 
 .cause-guiter__image {
-  width: 706px;
+  width: 649px;
   height: auto;
   position: absolute;
   bottom: -60px;
-  left: -20px;
+  left: -10px;
 }
 
 .cause-guiter__image img {
