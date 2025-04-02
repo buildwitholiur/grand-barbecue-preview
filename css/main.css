@@ -204,6 +204,19 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+  position: relative;
+}
+
+.nav__links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: max-content;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 .nav__links,
@@ -326,7 +339,7 @@ main {
 
 .location__map-icon {
   width: fit-content;
-  height: 8rem;
+  height: 6rem;
 }
 
 .location__map-info h2 {
@@ -469,6 +482,7 @@ main {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
+  mix-blend-mode: multiply;
 }
 
 .cause-hero__partner h3 {
