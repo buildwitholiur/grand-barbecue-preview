@@ -1,3 +1,9 @@
+@media (max-width: 1650.98px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .image-version--desktop {
     display: none;
@@ -12,90 +18,94 @@
     display: none;
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   .font--14 {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
   }
 
   .font--15 {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.5rem !important;
+    line-height: 2.4rem !important;
   }
 
   .font--18 {
-    font-size: 12px;
+    font-size: 1.4rem !important;
   }
 
   .font--20 {
-    font-size: 14px;
+    font-size: 1.4rem !important;
   }
 
   .font--26 {
-    font-size: 18px;
+    font-size: 1.8rem !important;
   }
 
   .font--48 {
-    font-size: 32px;
-    line-height: 25px;
+    font-size: 3.2rem !important;
+    line-height: 2.5rem !important;
   }
 
   .header .container {
-    padding: 0 34px;
+    padding: 0 3.4rem;
   }
 
   .container {
-    padding: 0 100px;
+    padding: 0 10rem;
   }
 
   .nav__social-links {
-    gap: 5px;
+    gap: 0.5rem;
   }
 
   .nav__social-links li a {
-    width: 19px;
-    height: 19px;
+    width: 1.9rem;
+    height: 1.9rem;
   }
 
   .location__map-icon {
-    height: 42px;
+    height: 4.2rem;
   }
 
   .location__map-info p {
-    margin-top: 3px;
+    margin-top: 0.3rem;
   }
 
   .location__map-heading {
-    gap: 10px;
+    gap: 1rem;
   }
 
   .hero__image {
-    height: 316px;
+    height: 31.6rem;
   }
 
   .hero__logo {
-    height: 73px;
+    height: 7.3rem;
   }
 
   .location__images {
-    max-width: 372px;
+    max-width: 37.2rem;
   }
 
   .location {
-    gap: 80px;
+    gap: 8rem;
   }
 
   .location__map {
-    height: 286px;
-    margin-top: 20px;
+    height: 28.6rem;
+    margin-top: 2rem;
   }
 
   .location-area {
-    padding-top: 70px;
+    padding-top: 7rem;
     padding-bottom: 0;
   }
 
   .location__map {
-    border: 5px solid;
+    border: 0.5rem solid;
     border-image-slice: 5;
     border-image-repeat: round;
     border-image-source: url("data:image/svg+xml,%3Csvg%20width%3D%22130%22%20height%3D%22130%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M0%200%20H%2030%20V%205%20H%205%20V%2030%20H%200%20V%200%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M130%200%20V%2030%20H%20125%20V%205%20H%20100%20V%200%20H%20130%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M130%20130%20H%20100%20V%20125%20H%20125%20V%20100%20H%20130%20V%20130%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M0%20130%20V%20100%20H%205%20V%20125%20H%2030%20V%20130%20H%200%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3C%2Fsvg%3E");
@@ -106,87 +116,91 @@
   }
 
   .location__content {
-    margin-top: 10px;
+    margin-top: 1rem;
   }
 
   .footer__logo {
-    height: 43px;
+    height: 4.3rem;
   }
 
   .footer-area {
-    padding: 16px 0;
+    padding: 1.6rem 0;
   }
 
   .hero p {
-    margin-top: 32px;
+    margin-top: 3.2rem;
   }
 
   .hero-area {
-    padding: 14px 0;
-    padding-bottom: 20px;
+    padding: 1.4rem 0;
+    padding-bottom: 2rem;
   }
 
   .nav__links {
-    gap: 30px;
+    gap: 3rem;
   }
 
   .cause-hero-area .container {
-    padding: 0 86px;
+    padding: 0 8.6rem;
   }
 
   .cause-hero__image {
-    width: 447px;
-    height: 420px;
+    width: 44.7rem;
+    height: 42rem;
   }
 
   .cause-hero__content {
-    max-width: 240px;
+    max-width: 24rem;
   }
 
   .give__btn {
-    font-size: 70px;
+    font-size: 7rem;
     line-height: 1;
-    padding: 2px 15px;
-    margin-top: 15px;
+    padding: 0.2rem 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .cause-hero__partners {
-    max-width: 275px;
-    column-gap: 22px;
-    row-gap: 64px;
+    max-width: 27.5rem;
+    column-gap: 2.2rem;
+    row-gap: 6.4rem;
   }
 
   .cause-hero {
-    height: 420px;
+    height: 42rem;
   }
 
   .cause-hero__partner img {
-    height: 44px;
+    height: 4.4rem;
   }
 
   .cause-hero__partner .partner-logo-sm {
-    height: 35px;
+    height: 3.5rem;
   }
 
   .cause-guiter__content {
-    max-width: 467px;
-    padding-top: 50px;
+    max-width: 46.7rem;
+    padding-top: 5rem;
   }
 
   .cause-guiter-area .container {
-    padding: 0 89px;
+    padding: 0 7.9rem;
+  }
+
+  .logo {
+    width: 14.8rem;
   }
 
   .cause-guiter__content p {
-    line-height: 25px;
+    line-height: 2.5rem;
   }
 
   .cause-guiter__image {
-    width: 467px;
+    width: 46.7rem;
     height: auto;
     position: absolute;
-    bottom: -45px;
-    left: -6px;
+    bottom: -4.5rem;
+    left: -0.6rem;
   }
 
   .cause-guiter-area {
@@ -194,7 +208,7 @@
   }
 
   .cause-guiter {
-    height: 434px;
+    height: 43.4rem;
   }
 }
 
@@ -213,25 +227,25 @@
   }
 
   .header .container {
-    padding: 0 44px;
+    padding: 0 4.4rem;
   }
 
   .container {
-    padding: 0 26px;
+    padding: 0 2.6rem;
   }
 
   .hero-area {
-    padding: 24px 0;
-    padding-bottom: 10px;
+    padding: 2.4rem 0;
+    padding-bottom: 1rem;
   }
 
   .location-area {
-    padding-top: 15px;
+    padding-top: 1.5rem;
     padding-bottom: 0;
   }
 
   .location__images {
-    max-width: 357px;
+    max-width: 35.7rem;
   }
 
   .location {
@@ -239,31 +253,31 @@
   }
 
   .cause-hero-area .container {
-    padding: 0 31px;
+    padding: 0 3.1rem;
   }
 
   .cause-guiter-area .container {
-    padding: 0 23px;
+    padding: 0 2.3rem;
   }
 
   .cause-hero {
     height: auto;
     flex-direction: column;
     align-items: flex-start;
-    gap: 105px;
+    gap: 10.5rem;
   }
 
   .cause-hero__content {
-    margin-top: 65px;
+    margin-top: 6.5rem;
   }
 
   .cause-hero__content {
-    max-width: 294px;
+    max-width: 29.4rem;
   }
 
   .cause-hero__image {
-    width: 480px;
-    height: 452px;
+    width: 44rem;
+    height: 40.2rem;
     left: auto;
     right: 0;
     transform: translateX(0);
@@ -274,57 +288,57 @@
   }
 
   .cause-hero__partners {
-    max-width: 275px;
-    column-gap: 22px;
-    row-gap: 64px;
+    max-width: 27.5rem;
+    column-gap: 2.2rem;
+    row-gap: 6.4rem;
   }
 
   .cause-hero__partners {
     max-width: 100%;
-    gap: 46px;
+    gap: 4.6rem;
     grid-template-columns: repeat(4, 1fr);
   }
 
   .cause-hero__content p {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 
   .give__btn {
-    font-size: 80px;
+    font-size: 8rem;
     line-height: 1;
-    padding: 10px 20px;
-    margin-top: 15px;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
   }
 
   .cause-hero__partner img {
-    height: 61px;
+    height: 6.1rem;
   }
 
   .cause-hero__partner .partner-logo-sm {
-    height: 61px;
+    height: 6.1rem;
   }
 
   .cause-guiter {
-    height: 460px;
+    height: 46rem;
   }
 
   .cause-guiter__content {
-    max-width: 316px;
-    padding-top: 50px;
+    max-width: 31.6rem;
+    padding-top: 5rem;
   }
 
   .cause-guiter__content p {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 
   .cause-guiter__image {
-    width: 487px;
+    width: 48.7rem;
     height: auto;
     position: absolute;
-    bottom: -45px;
-    left: -8px;
+    bottom: -4.5rem;
+    left: -0.8rem;
   }
 
   .hero-area,
@@ -349,15 +363,15 @@
   }
 
   .font--18 {
-    font-size: 22px;
+    font-size: 2.2rem !important;
   }
 
   .font--20 {
-    font-size: 25px;
+    font-size: 2.5rem !important;
   }
 
   .font--26 {
-    font-size: 26px;
+    font-size: 2.6rem !important;
   }
 
   .nav__logo-area,
@@ -366,11 +380,11 @@
   }
 
   .header .container {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
 
   .container {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
 
   .nav {
@@ -378,34 +392,34 @@
   }
 
   .header {
-    height: 89px;
+    height: 8.9rem;
   }
 
   .nav__links {
-    gap: 100px;
+    gap: 10rem;
   }
 
   .hero__logo {
-    height: 58px;
+    height: 5.8rem;
   }
 
   main {
-    margin-top: 89px;
+    margin-top: 8.9rem;
   }
 
   .hero-area {
-    padding: 10px 0;
-    padding-bottom: 23px;
+    padding: 1rem 0;
+    padding-bottom: 2.3rem;
   }
 
   .hero__image {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 4rem;
   }
 
   .hero p {
-    margin-top: 40px;
+    margin-top: 4rem;
   }
 
   .location {
@@ -427,20 +441,20 @@
   }
 
   .location__map-heading {
-    gap: 27px;
+    gap: 2.7rem;
   }
 
   .location__map-icon {
-    height: 76px;
+    height: 7.6rem;
   }
 
   .location-area {
-    padding-top: 41px;
-    padding-bottom: 65px;
+    padding-top: 4.1rem;
+    padding-bottom: 6.5rem;
   }
 
   .location__map-info p {
-    margin-top: 20px;
+    margin-top: 2rem;
   }
 
   .location__content {
@@ -448,18 +462,18 @@
   }
 
   .location__map {
-    height: 617px;
-    margin-top: 50px;
+    height: 61.7rem;
+    margin-top: 5rem;
   }
 
   .location__images {
-    margin-top: 41px;
+    margin-top: 4.1rem;
   }
 
   .cause-hero__image {
-    width: calc(100% + 40px);
-    height: 479px;
-    top: -25px;
+    width: calc(100% + 4rem);
+    height: 47.9rem;
+    top: -2.5rem;
     right: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -482,10 +496,10 @@
   .mobile-logo {
     display: block;
     width: fit-content;
-    height: 39px;
+    height: 3.9rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
   .mobile-logo img {
@@ -493,13 +507,13 @@
   }
 
   .cause-hero__content {
-    margin-top: 490px;
+    margin-top: 49rem;
     max-width: 100%;
   }
 
   .cause-hero__content p {
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
   }
 
   .give__btn {
@@ -510,20 +524,20 @@
   }
 
   .cause-hero {
-    gap: 68px;
+    gap: 6.8rem;
   }
 
   .cause-hero__partners {
-    max-width: 344px;
-    column-gap: 74px;
-    row-gap: 28px;
+    max-width: 34.4rem;
+    column-gap: 7.4rem;
+    row-gap: 2.8rem;
     grid-template-columns: repeat(2, 1fr);
     margin-left: auto;
     margin-right: auto;
   }
 
   .cause-guiter {
-    height: 910px;
+    height: 91rem;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -533,7 +547,7 @@
   }
 
   .cause-guiter-area {
-    padding-top: 80px;
+    padding-top: 8rem;
   }
 
   .cause-guiter__content {
@@ -541,17 +555,17 @@
   }
 
   .cause-guiter__content h2 {
-    font-size: 42px;
+    font-size: 4.2rem;
   }
 
   .cause-guiter__content p {
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
   }
 
   .cause-guiter__image {
-    width: calc(100% + 40px);
-    bottom: -35px;
+    width: calc(100% + 4rem);
+    bottom: -3.5rem;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);

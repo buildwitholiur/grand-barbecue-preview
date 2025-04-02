@@ -86,38 +86,38 @@ a:hover {
 }
 
 .font--14 {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 .font--15 {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .font--16 {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .font--18 {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .font--20 {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .font--26 {
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 .font--48 {
-  font-size: 48px;
-  line-height: 25px;
+  font-size: 4.8rem;
+  line-height: 2.5rem;
 }
 
 .font--80 {
-  font-size: 80px;
+  font-size: 8rem;
 }
 
 .hidden {
@@ -126,22 +126,22 @@ a:hover {
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: 0.1rem;
+  height: 0.1rem;
   padding: 0;
-  margin: -1px;
+  margin: -0.1rem;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
 .custom__shadow {
-  -webkit-box-shadow: 0 3px 5px -1px rgba(9, 30, 66, 0.08);
-  box-shadow: 0 3px 5px -1px rgba(9, 30, 66, 0.08);
+  -webkit-box-shadow: 0 0.3rem 0.5rem -0.1rem rgba(9, 30, 66, 0.08);
+  box-shadow: 0 0.3rem 0.5rem -0.1rem rgba(9, 30, 66, 0.08);
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 166rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -157,7 +157,7 @@ font-family: "Roboto Flex", sans-serif;
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 1.2;
   font-weight: 400;
   background: #fbf4f0;
@@ -165,7 +165,7 @@ body {
 }
 
 main {
-  margin-top: 66px;
+  margin-top: 8rem;
 }
 
 /* Default CSS Code */
@@ -178,19 +178,20 @@ main {
   left: 0;
   width: 100%;
   z-index: 9999;
-  padding: 16px 0;
+  padding: 1.6rem 0;
   background: #efad18;
-  height: 66px;
+  height: 8rem;
   display: flex;
   align-items: center;
 }
 
 .header .container {
-  max-width: 1372px;
+  max-width: 100%;
+  padding: 0 4.6rem;
 }
 
 .logo {
-  width: 204px;
+  width: 27.4rem;
   height: auto;
 }
 
@@ -202,14 +203,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .nav__links,
 .nav__social-links {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 3.5rem;
 }
 
 .nav__links li,
@@ -221,6 +222,8 @@ main {
   font-family: "Itim", cursive;
   font-weight: 400;
   color: #fff;
+  font-size: 2.6rem;
+  text-transform: capitalize;
   transition: all 0.15s ease-in-out;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
@@ -233,12 +236,12 @@ main {
 }
 
 .nav__social-links {
-  gap: 10px;
+  gap: 1.2rem;
 }
 
 .nav__social-links li a {
-  width: 27px;
-  height: 27px;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 .nav__social-links li a img {
@@ -253,13 +256,12 @@ main {
 
 /* Hero Area */
 .hero-area {
-  padding: 32px 0;
-  min-height: calc(100vh - 66px);
+  padding: 3.2rem 0;
 }
 
 .hero__logo {
   width: fit-content;
-  height: 109px;
+  height: 15rem;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
@@ -267,10 +269,10 @@ main {
 
 .hero__image {
   width: fit-content;
-  height: 472px;
+  height: 63rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .hero__image img {
@@ -287,7 +289,8 @@ main {
 
 .hero p {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 1rem;
+  font-size: 3.4rem;
 }
 
 /* Hero Area */
@@ -295,10 +298,9 @@ main {
 /* Location Area */
 
 .location-area {
-  padding-top: 40px;
-  padding-bottom: 28px;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
   background: url("../images/location-bg.jpg");
-  min-height: 100vh;
 }
 
 .location {
@@ -311,36 +313,38 @@ main {
 }
 
 .location__images {
-  width: 100%;
-  max-width: 620px;
-  margin-top: 10px;
+  width: 82.9rem;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .location__map-heading {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 .location__map-icon {
   width: fit-content;
-  height: 26px;
+  height: 8rem;
 }
 
 .location__map-info h2 {
   font-weight: 900;
+  font-size: 2.4rem;
 }
 
 .location__map-info p {
   font-weight: 500;
-  margin-top: 15px;
+  margin-top: 1.5rem;
+  font-size: 2.2rem;
 }
 
 .location__map {
   width: 100%;
-  height: 478px;
-  margin-top: 12px;
-  border: 10px solid;
+  height: 64rem;
+  margin-top: 1.2rem;
+  border: 1rem solid;
   border-image-slice: 10;
   border-image-repeat: round;
   border-image-source: url("data:image/svg+xml,%3Csvg%20width%3D%22110%22%20height%3D%22110%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M0%200%20H%2035%20V%2010%20H%2010%20V%2035%20H%200%20V%200%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M110%200%20V%2035%20H%20100%20V%2010%20H%2075%20V%200%20H%20110%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M110%20110%20H%2075%20V%20100%20H%20100%20V%2075%20H%20110%20V%20110%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3Cpath%20d%3D%22M0%20110%20V%2075%20H%2010%20V%20100%20H%2035%20V%20110%20H%200%22%20fill%3D%22rgb(234%2C219%2C151)%22%20%2F%3E%3C%2Fsvg%3E");
@@ -351,13 +355,13 @@ main {
 /* Footer Area */
 .footer-area {
   background: #efad18;
-  padding: 23px 0;
+  padding: 2.8rem 0;
 }
 
 .footer__logo {
   display: block;
   width: fit-content;
-  height: 59px;
+  height: 8.5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -368,8 +372,7 @@ main {
 
 /* Cause Hero Area */
 .cause-hero-area {
-  padding-top: 24px;
-  min-height: calc(100vh - 66px);
+  padding-top: 2.4rem;
 }
 
 .cause-hero {
@@ -377,15 +380,15 @@ main {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  height: 608px;
+  height: 85rem;
 }
 
 .cause-hero__image {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 648px;
-  height: 609px;
+  width: fit-content;
+  height: 78rem;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -404,7 +407,7 @@ main {
 
 .cause-hero__content {
   width: 100%;
-  max-width: 388px;
+  max-width: 47.5rem;
 }
 
 .mobile-logo {
@@ -413,7 +416,9 @@ main {
 
 .cause-hero__content p {
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  line-height: 1.5;
 }
 
 .cause-hero__content p span {
@@ -426,17 +431,17 @@ main {
 
 .give__btn {
   font-family: "Tilt Warp", sans-serif;
-  font-size: 80px;
+  font-size: 10.8rem;
   color: #fbf4f0;
   background: #0b333c;
-  padding: 2px 19px;
-  margin-top: 20px;
+  padding: 0.3rem 2.6rem;
+  margin-top: 2rem;
   text-transform: uppercase;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
   transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -451,16 +456,16 @@ main {
 
 .cause-hero__partners {
   width: 100%;
-  max-width: 333px;
+  max-width: 45rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 48px;
-  row-gap: 82px;
+  column-gap: 4.8rem;
+  row-gap: 8.2rem;
 }
 
 .cause-hero__partner img {
   width: fit-content;
-  height: 60px;
+  height: 8.6rem;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
@@ -470,19 +475,24 @@ main {
   font-family: "Tilt Warp", sans-serif;
   color: #0b333c;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 1.5rem;
   text-align: center;
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .cause-hero__partner .partner-logo-sm {
-  height: 42px;
+  height: 6.2rem;
 }
 /* Cause Hero Area */
 
 /* Cause Guiter Area */
 .cause-guiter-area {
-  padding-top: 40px;
+  padding-top: 17.5rem;
+}
+
+.cause-guiter-area .container {
+  max-width: 163.6rem;
 }
 
 .cause-guiter {
@@ -490,15 +500,15 @@ main {
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  height: 669px;
+  height: 66.9rem;
 }
 
 .cause-guiter__image {
-  width: 649px;
-  height: auto;
+  width: fit-content;
+  height: 84rem;
   position: absolute;
-  bottom: -60px;
-  left: -10px;
+  bottom: -6rem;
+  left: -1rem;
 }
 
 .cause-guiter__image img {
@@ -507,20 +517,21 @@ main {
 
 .cause-guiter__content {
   width: 100%;
-  max-width: 694px;
-  padding-top: 130px;
+  max-width: 90rem;
 }
 
 .cause-guiter__content h2 {
   font-family: "Tilt Warp", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 7rem;
 }
 
 .cause-guiter__content p {
   font-family: "Roboto Flex", sans-serif;
-  margin-top: 20px;
-  line-height: 32px;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  line-height: 1.7;
   font-weight: 600;
 }
 
