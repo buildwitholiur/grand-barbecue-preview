@@ -18,11 +18,15 @@
     display: none;
   }
 
+  .cause-hero__partners.image-version--desktop {
+    display: grid !important;
+  }
+
   html {
     font-size: 62.5%;
   }
 
-  .font--14 {
+  /* .font--14 {
     font-size: 1.4rem !important;
     line-height: 2rem !important;
   }
@@ -47,7 +51,7 @@
   .font--48 {
     font-size: 3.2rem !important;
     line-height: 2.5rem !important;
-  }
+  } */
 
   .header .container {
     padding: 0 3.4rem;
@@ -72,6 +76,7 @@
 
   .location__map-info p {
     margin-top: 0.3rem;
+    font-size: 1.4rem;
   }
 
   .location__map-heading {
@@ -129,6 +134,7 @@
 
   .hero p {
     margin-top: 3.2rem;
+    font-size: 1.8rem;
   }
 
   .hero-area {
@@ -141,7 +147,7 @@
   }
 
   .cause-hero-area .container {
-    padding: 0 8.6rem;
+    padding: 0 3.6rem;
   }
 
   .cause-hero__image {
@@ -191,10 +197,6 @@
     width: 14.8rem;
   }
 
-  .cause-guiter__content p {
-    line-height: 2.5rem;
-  }
-
   .cause-guiter__image {
     width: 46.7rem;
     height: auto;
@@ -209,6 +211,41 @@
 
   .cause-guiter {
     height: 43.4rem;
+  }
+
+  .nav__links li a {
+    font-size: 1.4rem;
+  }
+
+  .cause-hero__content p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .cause-hero__partner h3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .cause-guiter__content h2 {
+    font-size: 3.2rem;
+    line-height: 2.5rem;
+  }
+
+  .cause-guiter__content p {
+    font-size: 1.4rem;
+  }
+
+  .location__map-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .cause-donate__items {
+    height: 300px;
+  }
+
+  .cause-donate__video-items {
+    height: 370px;
   }
 }
 
@@ -280,28 +317,34 @@
     height: 40.2rem;
     left: auto;
     right: 0;
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
+    transform: translateX(0) scale(1.1);
+    -webkit-transform: translateX(0) scale(1.1);
+    -moz-transform: translateX(0) scale(1.1);
+    -ms-transform: translateX(0) scale(1.1);
+    -o-transform: translateX(0) scale(1.1);
   }
 
-  .cause-hero__partners {
-    max-width: 27.5rem;
-    column-gap: 2.2rem;
-    row-gap: 6.4rem;
+  .cause-hero__image.show {
+    transform: translateX(0) scale(1);
+    -webkit-transform: translateX(0) scale(1);
+    -moz-transform: translateX(0) scale(1);
+    -ms-transform: translateX(0) scale(1);
+    -o-transform: translateX(0) scale(1);
   }
 
   .cause-hero__partners {
     max-width: 100%;
     gap: 4.6rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .cause-hero__partner {
+    justify-content: center;
   }
 
   .cause-hero__content p {
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
   }
 
   .give__btn {
@@ -328,11 +371,6 @@
     padding-top: 5rem;
   }
 
-  .cause-guiter__content p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-  }
-
   .cause-guiter__image {
     width: 48.7rem;
     height: auto;
@@ -345,6 +383,53 @@
   .location-area,
   .cause-hero-area {
     min-height: auto;
+  }
+
+  body {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .cause-donate__item h2 {
+    font-size: 26px;
+  }
+
+  .cause-donate__item img {
+    height: 36px;
+  }
+
+  .cause-donate__items {
+    height: 210px;
+  }
+
+  .cause-donate__video-items {
+    height: 220px;
+  }
+
+  .donate-contact__item h3,
+  .donate-contact__item p,
+  .donate-contact__item a,
+  .donate-contact__email,
+  .donate-contact__email a {
+    font-size: 14px;
+  }
+
+  .donate-contact__note {
+    text-align: left;
+  }
+
+  .donate-contact__items {
+    max-width: 610px;
+    margin-top: 40px;
+  }
+
+  .donate-contact__email {
+    margin-top: 60px;
+  }
+
+  .donate-contact-area {
+    padding-top: 45px;
+    padding-bottom: 30px;
   }
 }
 
@@ -362,7 +447,7 @@
     display: block;
   }
 
-  .font--18 {
+  /* .font--18 {
     font-size: 2.2rem !important;
   }
 
@@ -372,7 +457,7 @@
 
   .font--26 {
     font-size: 2.6rem !important;
-  }
+  } */
 
   .nav__logo-area,
   .nav__social-links {
@@ -420,6 +505,7 @@
 
   .hero p {
     margin-top: 4rem;
+    font-size: 2.6rem;
   }
 
   .location {
@@ -455,6 +541,7 @@
 
   .location__map-info p {
     margin-top: 2rem;
+    font-size: 2.2rem;
   }
 
   .location__content {
@@ -472,15 +559,23 @@
 
   .cause-hero__image {
     width: calc(100% + 4rem);
-    height: 47.9rem;
+    height: 35.9rem;
     top: -2.5rem;
     right: auto;
     left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+    transform: translateX(-50%) scale(1.1);
+    -webkit-transform: translateX(-50%) scale(1.1);
+    -moz-transform: translateX(-50%) scale(1.1);
+    -ms-transform: translateX(-50%) scale(1.1);
+    -o-transform: translateX(-50%) scale(1.1);
+  }
+
+  .cause-hero__image.show {
+    transform: translateX(-50%) scale(1);
+    -webkit-transform: translateX(-50%) scale(1);
+    -moz-transform: translateX(-50%) scale(1);
+    -ms-transform: translateX(-50%) scale(1);
+    -o-transform: translateX(-50%) scale(1);
   }
 
   .desktop-women,
@@ -507,20 +602,15 @@
   }
 
   .cause-hero__content {
-    margin-top: 49rem;
+    margin-top: 36rem;
     max-width: 100%;
-  }
-
-  .cause-hero__content p {
-    font-size: 2.2rem;
-    line-height: 3.5rem;
   }
 
   .give__btn {
     margin-left: auto;
     margin-right: auto;
-    display: block;
     width: fit-content;
+    display: none;
   }
 
   .cause-hero {
@@ -554,10 +644,6 @@
     max-width: 100%;
   }
 
-  .cause-guiter__content h2 {
-    font-size: 4.2rem;
-  }
-
   .cause-guiter__content p {
     font-size: 2.2rem;
     line-height: 3.5rem;
@@ -572,5 +658,83 @@
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+  }
+
+  .nav__links li a {
+    font-size: 2.5rem;
+  }
+
+  .location__map-info h2 {
+    font-size: 2.2rem;
+  }
+
+  .cause-hero__partner {
+    justify-content: flex-start;
+  }
+
+  .cause-hero__partners.image-version--mobile {
+    display: grid !important;
+    margin-bottom: 25px;
+  }
+
+  .cause-donate__item p {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .cause-donate__items {
+    height: 210px;
+  }
+
+  .cause-donate__item img {
+    height: 32px;
+  }
+
+  .cause-donate__video-items {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .cause-donate__video-item {
+    width: 100%;
+  }
+
+  .cause-donate__video-item--youtube {
+    padding: 25px 0;
+  }
+
+  .donate-contact__items {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .donate-contact__item {
+    text-align: center;
+    border-bottom: 0.1rem solid #000;
+    padding: 0 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  body {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .cause-hero__partners.image-version--desktop {
+    display: none !important;
+  }
+
+  .cause-donate__item {
+    gap: 2.4rem;
+  }
+
+  .cause-hero-area {
+    padding-bottom: 4rem;
+  }
+
+  .cause-donate__youtube {
+    width: calc(100% - 4rem);
   }
 }

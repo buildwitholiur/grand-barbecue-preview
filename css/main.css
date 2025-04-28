@@ -85,41 +85,6 @@ a:hover {
   text-decoration: none;
 }
 
-.font--14 {
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-}
-
-.font--15 {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-}
-
-.font--16 {
-  font-size: 1.6rem;
-}
-
-.font--18 {
-  font-size: 1.8rem;
-}
-
-.font--20 {
-  font-size: 2rem;
-}
-
-.font--26 {
-  font-size: 2.6rem;
-}
-
-.font--48 {
-  font-size: 4.8rem;
-  line-height: 2.5rem;
-}
-
-.font--80 {
-  font-size: 8rem;
-}
-
 .hidden {
   display: none !important;
 }
@@ -158,7 +123,7 @@ font-family: "Roboto Flex", sans-serif;
 body {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 400;
   background: #fbf4f0;
   color: #0b333c;
@@ -343,6 +308,10 @@ main {
   height: 6rem;
 }
 
+.location__map-icon img {
+  object-fit: contain;
+}
+
 .location__map-info h2 {
   font-weight: 900;
   font-size: 2.4rem;
@@ -387,6 +356,8 @@ main {
 /* Cause Hero Area */
 .cause-hero-area {
   padding-top: 2.4rem;
+  padding-bottom: 6rem;
+  overflow: hidden;
 }
 
 .cause-hero {
@@ -485,20 +456,23 @@ main {
 
 .cause-hero__partners {
   width: 100%;
-  max-width: 45rem;
+  max-width: fit-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 4.8rem;
-  row-gap: 8.2rem;
+  column-gap: 11rem;
+  row-gap: 6rem;
+}
+
+.cause-hero__partner {
+  display: flex;
+  align-items: center;
 }
 
 .cause-hero__partner img {
   width: fit-content;
-  height: 8.6rem;
+  height: 9rem;
   object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
-  mix-blend-mode: multiply;
+  mix-blend-mode: darken;
 }
 
 .cause-hero__partner h3 {
@@ -512,8 +486,9 @@ main {
 }
 
 .cause-hero__partner .partner-logo-sm {
-  height: 6.2rem;
+  height: 7rem;
 }
+
 /* Cause Hero Area */
 
 /* Cause Guiter Area */
@@ -566,5 +541,153 @@ main {
 }
 
 /* Cause Guiter Area */
+
+/* Cause Donate Area */
+.cause-donate__items {
+  display: flex;
+  height: 420px;
+}
+
+.cause-donate__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.cause-donate__item--gofundme {
+  background: #7ebfa0;
+}
+
+.cause-donate__item--paypal {
+  background: #f2b13b;
+}
+
+.cause-donate__item h2 {
+  font-weight: 900;
+  color: #282828;
+  font-size: 36px;
+}
+
+.cause-donate__item img {
+  width: fit-content;
+  height: 48px;
+}
+
+.cause-donate__item p {
+  color: #fff;
+}
+
+.cause-donate__video-items {
+  display: flex;
+  height: 540px;
+}
+
+.cause-donate__video-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cause-donate__video-item--youtube {
+  background: #d8d8d0;
+  padding: 40px 0;
+}
+
+.cause-donate__youtube {
+  display: flex;
+  width: calc(100% - 8rem);
+  max-width: 618px;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cause-donate__youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cause Donate Area */
+
+/* Donate Contact Area */
+.donate-contact-area {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.donate-contact__note {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.donate-contact__items {
+  max-width: 990px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.donate-contact__item h3,
+.donate-contact__item p,
+.donate-contact__item a,
+.donate-contact__email,
+.donate-contact__email a {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0b333c;
+  font-weight: 600;
+}
+
+.donate-contact__item h3 {
+  font-weight: 700;
+}
+
+.donate-contact__item p span {
+  display: block;
+}
+
+.donate-contact__item a {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 16px;
+}
+
+.donate-contact__item a img {
+  width: 14px;
+  height: auto;
+  object-fit: contain;
+}
+
+.donate-contact__email,
+.donate-contact__email a {
+  font-size: 18px;
+}
+
+.donate-contact__email {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.image-version--mobile {
+  display: none;
+}
+
+/* Donate Contact Area */
 
 /* Cause Page */
