@@ -472,6 +472,9 @@ main {
   width: fit-content;
   height: 9rem;
   object-fit: contain;
+}
+
+.cause-hero__partner2 img {
   mix-blend-mode: darken;
 }
 
@@ -555,14 +558,27 @@ main {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
 }
 
 .cause-donate__item--gofundme {
   background: #7ebfa0;
 }
 
+.cause-donate__item--gofundme:hover {
+  background: #78b799;
+}
+
 .cause-donate__item--paypal {
   background: #f2b13b;
+}
+
+.cause-donate__item--paypal:hover {
+  background: #efa826;
 }
 
 .cause-donate__item h2 {
