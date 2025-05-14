@@ -432,9 +432,10 @@ main {
 .give__btn {
   font-family: "Tilt Warp", sans-serif;
   font-size: 10.8rem;
+  line-height: 1;
   color: #fbf4f0;
   background: #0b333c;
-  padding: 0.3rem 2.6rem;
+  padding: 1.4rem 2.7rem;
   margin-top: 2rem;
   text-transform: uppercase;
   border-radius: 0.3rem;
@@ -466,6 +467,7 @@ main {
 .cause-hero__partner {
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 
 .cause-hero__partner img {
@@ -643,7 +645,7 @@ main {
 }
 
 .donate-contact__items {
-  max-width: 990px;
+  max-width: 430px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -677,7 +679,6 @@ main {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  margin-top: 16px;
 }
 
 .donate-contact__item a img {
