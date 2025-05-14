@@ -737,4 +737,12 @@
   .cause-donate__youtube {
     width: calc(100% - 4rem);
   }
+
+  .donation-area {
+    padding: 30px 0;
+  }
+
+  .donation-area h1 {
+    font-size: 22px;
+  }
 }
