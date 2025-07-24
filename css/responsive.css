@@ -2,6 +2,11 @@
   html {
     font-size: 50.5%;
   }
+
+  .about-hero {
+    max-width: 100%;
+    padding: 0 70px;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -247,6 +252,34 @@
   .cause-donate__video-items {
     height: 370px;
   }
+
+  .about-hero {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .about-hero-area .container {
+    padding: 0 7rem;
+  }
+
+  .about-hero__content {
+    max-width: 600px;
+  }
+
+  .about__hand-crafted img {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .about__hand-crafted {
+    top: -20px;
+    right: -65px;
+  }
+
+  .about-hero-area {
+    padding: 70px 0;
+  }
 }
 
 @media (max-width: 992.98px) {
@@ -431,6 +464,65 @@
     padding-top: 45px;
     padding-bottom: 30px;
   }
+
+  .about-hero-area .container {
+    padding: 0 5rem;
+  }
+
+  .about-space--left {
+    margin-left: 16px;
+  }
+
+  .about-hero__title {
+    width: 100%;
+    max-width: 277px;
+    position: relative;
+    height: 55px;
+  }
+
+  .about-hero__title h1 {
+    font-size: 30px;
+    padding-top: 18px;
+    padding-left: 8px;
+  }
+
+  .about__hand-crafted {
+    right: -46px;
+  }
+
+  .about__grand-area {
+    height: 100px;
+  }
+
+  .about__grand-layer {
+    top: 70%;
+  }
+
+  .about-hero__descs p,
+  .about-hero__cause p {
+    font-size: 14px;
+  }
+
+  .about-hero__content {
+    max-width: 580px;
+  }
+
+  .about__grand-area {
+    margin: 70px 0;
+  }
+
+  .about__hand-crafted {
+    flex-direction: column-reverse;
+    gap: 5px;
+  }
+
+  .about__hand-crafted h4 {
+    font-size: 14px;
+  }
+
+  .about__line {
+    max-width: 260px;
+  }
 }
 
 @media (max-width: 576.98px) {
@@ -481,7 +573,7 @@
   }
 
   .nav__links {
-    gap: 10rem;
+    gap: 3rem;
   }
 
   .hero__logo {
@@ -661,7 +753,7 @@
   }
 
   .nav__links li a {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .location__map-info h2 {
@@ -744,5 +836,74 @@
 
   .donation-area h1 {
     font-size: 22px;
+  }
+
+  .about-hero-area .container {
+    padding: 0 2rem;
+  }
+
+  .about-space--left {
+    margin-left: 0;
+  }
+
+  .about-hero__title {
+    max-width: 233px;
+    height: 65px;
+  }
+
+  .about-hero__title::after {
+    background-size: cover;
+  }
+
+  .about-hero__title h1 {
+    font-size: 36px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+
+  .about__hand-crafted h4 {
+    display: none;
+  }
+
+  .about__hand-crafted img {
+    width: 140px;
+  }
+
+  .about__hand-crafted {
+    right: -58px;
+    top: -74px;
+  }
+
+  .about-hero-area {
+    padding: 50px 0;
+  }
+
+  .about-hero__descs p,
+  .about-hero__cause p {
+    font-size: 16px;
+  }
+
+  .about__grand-area {
+    height: auto;
+    margin: 30px 0;
+  }
+
+  .about__grand-layer {
+    position: static;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+  .about-hero__cause h3 {
+    font-size: 38px;
+    line-height: 1.15;
+    margin-right: 10px;
+  }
+
+  .about__line {
+    margin: 0 auto;
   }
 }
