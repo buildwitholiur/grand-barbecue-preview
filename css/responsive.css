@@ -5,7 +5,7 @@
 
   .about-hero {
     max-width: 100%;
-    padding: 0 70px;
+    padding: 0 7rem;
   }
 }
 
@@ -246,11 +246,11 @@
   }
 
   .cause-donate__items {
-    height: 300px;
+    height: 30rem;
   }
 
   .cause-donate__video-items {
-    height: 370px;
+    height: 37rem;
   }
 
   .about-hero {
@@ -263,22 +263,22 @@
   }
 
   .about-hero__content {
-    max-width: 600px;
+    max-width: 60rem;
   }
 
   .about__hand-crafted img {
-    width: 90px;
+    width: 9rem;
     height: auto;
     object-fit: contain;
   }
 
   .about__hand-crafted {
-    top: -20px;
-    right: -65px;
+    top: -2rem;
+    right: -6.5rem;
   }
 
   .about-hero-area {
-    padding: 70px 0;
+    padding: 7rem 0;
   }
 }
 
@@ -424,19 +424,19 @@
   }
 
   .cause-donate__item h2 {
-    font-size: 26px;
+    font-size: 2.6rem;
   }
 
   .cause-donate__item img {
-    height: 36px;
+    height: 3.6rem;
   }
 
   .cause-donate__items {
-    height: 210px;
+    height: 21rem;
   }
 
   .cause-donate__video-items {
-    height: 220px;
+    height: 22rem;
   }
 
   .donate-contact__item h3,
@@ -444,7 +444,7 @@
   .donate-contact__item a,
   .donate-contact__email,
   .donate-contact__email a {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   .donate-contact__note {
@@ -452,17 +452,17 @@
   }
 
   .donate-contact__items {
-    max-width: 610px;
-    margin-top: 40px;
+    max-width: 61rem;
+    margin-top: 4rem;
   }
 
   .donate-contact__email {
-    margin-top: 60px;
+    margin-top: 6rem;
   }
 
   .donate-contact-area {
-    padding-top: 45px;
-    padding-bottom: 30px;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
   }
 
   .about-hero-area .container {
@@ -470,28 +470,28 @@
   }
 
   .about-space--left {
-    margin-left: 16px;
+    margin-left: 1.6rem;
   }
 
   .about-hero__title {
     width: 100%;
-    max-width: 277px;
+    max-width: 27.7rem;
     position: relative;
-    height: 55px;
+    height: 5.5rem;
   }
 
   .about-hero__title h1 {
-    font-size: 30px;
-    padding-top: 18px;
-    padding-left: 8px;
+    font-size: 3rem;
+    padding-top: 1.8rem;
+    padding-left: 0.8rem;
   }
 
   .about__hand-crafted {
-    right: -46px;
+    right: -4.6rem;
   }
 
   .about__grand-area {
-    height: 100px;
+    height: 10rem;
   }
 
   .about__grand-layer {
@@ -500,28 +500,28 @@
 
   .about-hero__descs p,
   .about-hero__cause p {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   .about-hero__content {
-    max-width: 580px;
+    max-width: 58rem;
   }
 
   .about__grand-area {
-    margin: 70px 0;
+    margin: 7rem 0;
   }
 
   .about__hand-crafted {
     flex-direction: column-reverse;
-    gap: 5px;
+    gap: 0.5rem;
   }
 
   .about__hand-crafted h4 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   .about__line {
-    max-width: 260px;
+    max-width: 26rem;
   }
 }
 
@@ -538,18 +538,6 @@
   .image-version--mobile {
     display: block;
   }
-
-  /* .font--18 {
-    font-size: 2.2rem !important;
-  }
-
-  .font--20 {
-    font-size: 2.5rem !important;
-  }
-
-  .font--26 {
-    font-size: 2.6rem !important;
-  } */
 
   .nav__logo-area,
   .nav__social-links {
@@ -766,20 +754,20 @@
 
   .cause-hero__partners.image-version--mobile {
     display: grid !important;
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
   }
 
   .cause-donate__item p {
     text-align: center;
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 
   .cause-donate__items {
-    height: 210px;
+    height: 21rem;
   }
 
   .cause-donate__item img {
-    height: 32px;
+    height: 3.2rem;
   }
 
   .cause-donate__video-items {
@@ -793,7 +781,7 @@
   }
 
   .cause-donate__video-item--youtube {
-    padding: 25px 0;
+    padding: 2.5rem 0;
   }
 
   .donate-contact__items {
@@ -831,11 +819,11 @@
   }
 
   .donation-area {
-    padding: 30px 0;
+    padding: 3rem 0;
   }
 
   .donation-area h1 {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
 
   .about-hero-area .container {
@@ -847,8 +835,8 @@
   }
 
   .about-hero__title {
-    max-width: 233px;
-    height: 65px;
+    max-width: 23.3rem;
+    height: 6.5rem;
   }
 
   .about-hero__title::after {
@@ -856,9 +844,9 @@
   }
 
   .about-hero__title h1 {
-    font-size: 36px;
-    padding-top: 12px;
-    padding-left: 12px;
+    font-size: 3.6rem;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
   }
 
   .about__hand-crafted h4 {
@@ -866,26 +854,26 @@
   }
 
   .about__hand-crafted img {
-    width: 140px;
+    width: 14rem;
   }
 
   .about__hand-crafted {
-    right: -58px;
-    top: -74px;
+    right: -5.8rem;
+    top: -7.4rem;
   }
 
   .about-hero-area {
-    padding: 50px 0;
+    padding: 5rem 0;
   }
 
   .about-hero__descs p,
   .about-hero__cause p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .about__grand-area {
     height: auto;
-    margin: 30px 0;
+    margin: 3rem 0;
   }
 
   .about__grand-layer {
@@ -898,9 +886,9 @@
   }
 
   .about-hero__cause h3 {
-    font-size: 38px;
+    font-size: 3.8rem;
     line-height: 1.15;
-    margin-right: 10px;
+    margin-right: 1rem;
   }
 
   .about__line {

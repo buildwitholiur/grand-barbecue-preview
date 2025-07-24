@@ -551,7 +551,7 @@ main {
 /* Cause Donate Area */
 .cause-donate__items {
   display: flex;
-  height: 420px;
+  height: 42rem;
 }
 
 .cause-donate__item {
@@ -560,7 +560,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 3.2rem;
   transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -587,12 +587,12 @@ main {
 .cause-donate__item h2 {
   font-weight: 900;
   color: #282828;
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 .cause-donate__item img {
   width: fit-content;
-  height: 48px;
+  height: 4.8rem;
 }
 
 .cause-donate__item p {
@@ -601,7 +601,7 @@ main {
 
 .cause-donate__video-items {
   display: flex;
-  height: 540px;
+  height: 54rem;
 }
 
 .cause-donate__video-item {
@@ -613,13 +613,13 @@ main {
 
 .cause-donate__video-item--youtube {
   background: #d8d8d0;
-  padding: 40px 0;
+  padding: 4rem 0;
 }
 
 .cause-donate__youtube {
   display: flex;
   width: calc(100% - 8rem);
-  max-width: 618px;
+  max-width: 61.8rem;
   height: auto;
   aspect-ratio: 16/9;
   margin-left: auto;
@@ -635,8 +635,8 @@ main {
 
 /* Donate Contact Area */
 .donate-contact-area {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
 }
 
 .donate-contact__note {
@@ -646,11 +646,11 @@ main {
 }
 
 .donate-contact__items {
-  max-width: 430px;
+  max-width: 43rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  margin-top: 6rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -662,7 +662,7 @@ main {
 .donate-contact__email,
 .donate-contact__email a {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.6;
   color: #0b333c;
   font-weight: 600;
@@ -683,14 +683,14 @@ main {
 }
 
 .donate-contact__item a img {
-  width: 14px;
+  width: 1.4rem;
   height: auto;
   object-fit: contain;
 }
 
 .donate-contact__email,
 .donate-contact__email a {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .donate-contact__email {
@@ -699,7 +699,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 14rem;
 }
 
 .image-version--mobile {
@@ -715,11 +715,11 @@ main {
 /* Donation area */
 .donation-area {
   min-height: 100vh;
-  padding: 80px 0;
+  padding: 8rem 0;
 }
 
 .donation-area h1 {
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 1.4;
 }
 
@@ -731,12 +731,12 @@ main {
 
 /* About Hero Area */
 .about-hero-area {
-  padding: 110px 0;
+  padding: 11rem 0;
   overflow: hidden;
 }
 
 .about-hero {
-  max-width: 1430px;
+  max-width: 143rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -744,20 +744,20 @@ main {
 }
 
 .about-hero__content {
-  max-width: 700px;
+  max-width: 70rem;
 }
 
 .about-space--left {
-  margin-left: 32px;
+  margin-left: 3.2rem;
   position: relative;
   z-index: 50;
 }
 
 .about-hero__title {
   width: 100%;
-  max-width: 377px;
+  max-width: 37.7rem;
   position: relative;
-  height: 78px;
+  height: 7.8rem;
 }
 
 .about-hero__title::after {
@@ -775,22 +775,22 @@ main {
 
 .about-hero__title h1 {
   font-family: "Big Shoulders", sans-serif;
-  font-size: 44px;
+  font-size: 4.4rem;
   position: relative;
   z-index: 30;
-  padding-top: 10px;
-  padding-left: 12px;
+  padding-top: 1rem;
+  padding-left: 1.2rem;
 }
 
 .about-hero__descs {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .about-hero__descs p {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 .about-hero__descs p:last-of-type {
@@ -798,9 +798,9 @@ main {
 }
 
 .about__grand-area {
-  margin: 30px 0;
+  margin: 3rem 0;
   width: 100%;
-  height: 155px;
+  height: 15.5rem;
   position: relative;
   z-index: 10;
 }
@@ -828,16 +828,16 @@ main {
 .about-hero__cause h3 {
   float: left;
   font-family: "Big Shoulders", sans-serif;
-  font-size: 44px;
+  font-size: 4.4rem;
   line-height: 1.1;
   vertical-align: top;
-  margin-right: 12px;
+  margin-right: 1.2rem;
 }
 
 .about-hero__cause p {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .about__cause-other {
@@ -845,27 +845,27 @@ main {
 }
 
 .about__line {
-  padding-top: 50px;
+  padding-top: 5rem;
 }
 
 .about__hand-crafted {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
   position: absolute;
-  top: -20px;
-  right: 120px;
+  top: -2rem;
+  right: 12rem;
 }
 
 .about__hand-crafted h4 {
   font-family: "Big Shoulders", sans-serif;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 800;
   color: #5b5f62;
 }
 
 .about__hand-crafted img {
-  width: 170px;
+  width: 17rem;
   height: auto;
   object-fit: contain;
 }
